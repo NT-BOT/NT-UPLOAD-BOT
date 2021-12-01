@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hai, I'm URL Upload Bot...
+    START_TEXT = """ഹായ്, ഞാൻ URL അപ്‌ലോഡ് ബോട്ട്...
 
 <b>URL with Custofm Thumbnail Support</b>
 
@@ -9,79 +9,79 @@ class Translation(object):
 <b>Support Group :</b> @Ntbotgroup
 <b>Channel join :</b> @NT_BOT_CHANNEL
 <b>Owner :</b> @NT_BOT_ADMIN"""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
+    RENAME_403_ERR = "ക്ഷമിക്കണം.ഈ ഫയലിന്റെ പേരുമാറ്റാൻ നിങ്ങൾക്ക് അനുവാദമില്ല."
+    ABS_TEXT = " ദയവായി സ്വാർത്ഥനാകരുത്."
+    UPGRADE_TEXT = "<b>👉 സ്വന്തം ക്ലോൺ ബോട്ട് സൃഷ്ടിക്കുക.. </b>  /വിശദാംശങ്ങൾക്ക് സഹായിക്കുക"
+    FORMAT_SELECTION = "ആവശ്യമുള്ള ഫോർമാറ്റ് തിരഞ്ഞെടുക്കുക: <a href='{}'>file size might be approximate</a> \nIf നിങ്ങൾക്ക് ഇഷ്ടാനുസൃത ലഘുചിത്രം സജ്ജമാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നു, ചുവടെയുള്ള ഏതെങ്കിലും ബട്ടണുകളിൽ ടാപ്പുചെയ്തതിനുശേഷം ഫോട്ടോ അയയ്ക്കുക.\nYou ഉപയോഗിക്കുക /deletethumbnail ഓട്ടോ-ജനറേറ്റുചെയ്ത ലഘുചിത്രം ഇല്ലാതാക്കാൻ."
+    SET_CUSTOM_USERNAME_PASSWORD = """നിങ്ങൾക്ക് പ്രീമിയം വീഡിയോകൾ download ചെയ്യാൻ ഇനിപ്പറയുന്ന ഫോർമാറ്റിൽ പിന്തുടരുക:
 URL | filename | username | password"""
-    NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "📥 Downloading..."
-    UPLOAD_START = "📤 Uploading..."
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @NT_BOT_CHANNEL"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """<b>Uploaded Successfully</b> 😍 
+    NOYES_URL = "@robot URL കണ്ടെത്തി.ദയവായി ഉപയോഗിക്കുക https://shrtz.me/PtsVnf6 ഞാൻ മറ്റ് ഉപയോക്താക്കൾക്കായി മന്ദഗതിയിലാക്കാതെ ടെലിഗ്രാമിലേക്ക് അപ്ലോഡ് ചെയ്യാൻ കഴിയുന്ന ഒരു വേഗത്തിലുള്ള URL നേടാം."
+    DOWNLOAD_START = "📥 ഡൗൺലോഡുചെയ്യുന്നു..."
+    UPLOAD_START = "📤 അപ്ലോഡുചെയ്യുന്നു..."
+    RCHD_BOT_API_LIMIT = "Size അനുവദനീയമായ പരമാവധി size (50MB). എന്നിരുന്നാലും, അപ്ലോഡുചെയ്യാൻ ശ്രമിക്കുന്നു."
+    RCHD_TG_API_LIMIT = "ഡൗൺലോഡുചെയ്തു {} സെക്കൻഡ്.\nDetected ഫയൽ വലുപ്പം: {}\nSorry. പക്ഷേ, ടെലിഗ്രാം എപിഐ പരിമിതികൾ കാരണം എനിക്ക് 1.9 ജിബിയേക്കാൾ കൂടുതൽ ഫയലുകൾ അപ്ലോഡ് ചെയ്യാൻ കഴിയില്ല."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "നിങ്ങൾ എന്നെ ഉപയോഗപ്രദമാണെന്ന് ദയവായി എന്നെ റേറ്റുചെയ്യുക. ജോയിൻ : @NT_BOT_CHANNEL"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """<b>വിജയകരമായി അപ്ലോഡുചെയ്തു</b> 😍 
 
-<b>Join channel: @NT_BOT_CHANNEL</b>"""
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✔️ Custom thumbnail cleared succesfully."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✔️ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+<b>ജോയിൻ ചാനലിൽ : @NT_BOT_CHANNEL</b>"""
+    NOT_AUTH_USER_TEXT = "ദയവായി /upgrade നിങ്ങളുടെ സബ്സ്ക്രിപ്ഷൻ."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "ഫയൽ വലുപ്പം കണ്ടെത്തി: {}. സൗജന്യ ഉപയോക്താക്കൾക്ക് മാത്രമേ അപ്ലോഡ് ചെയ്യാൻ കഴിയൂ: {}\nPlease /upgrade നിങ്ങളുടെ സബ്സ്ക്രിപ്ഷൻ.\nIf ഇതൊരു ബഗ് ആണെന്ന് നിങ്ങൾ കരുതുന്നു, ദയവായി ബന്ധപ്പെടുക <a href='https://telegram.dog/NT_BOT_CHANNEL'>@NT_BOT_ADMIN</a>"
+    SAVED_CUSTOM_THUMB_NAIL = "ഇഷ്ടാനുസൃത വീഡിയോ / ഫയൽ ലഘുചിത്രം സംരക്ഷിച്ചു. ഈ ചിത്രം വീഡിയോയിൽ ഉപയോഗിക്കും / ഫയല്."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✔️ ഇഷ്ടാനുസൃത ലഘുചിത്രം വിജയകരമായി മായ്ച്ചു."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✔️ മാധ്യമങ്ങൾ വിജയകരമായി മായ്ച്ചു."
+    SAVED_RECVD_DOC_FILE = "ഡോക്യുമെൻ്റ് വിജയകരമായി ഡൗൺലോഡ് ചെയ്തു."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTube</b> said: {}"
-    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
+    NO_CUSTOM_THUMB_NAIL_FOUND = "ഇഷ്ടാനുസൃത ലഘുചിത്രമൊന്നുമില്ല."
+    NO_VOID_FORMAT_FOUND = "പിശക്...\n<b>യൂട്യൂബ്</b> പറഞ്ഞു: {}"
+    USER_ADDED_TO_DB = "ഉപയോഗിക്കുന്നവന് <a href='tg://user?id={}'>{}</a> ചേർത്തു {} ലേക്ക് {}."
+    CURENT_PLAN_DETAILS = """നിലവിലെ പ്ലാൻ വിശദാംശങ്ങൾ
 --------
 <b>Telegram ID:</b> <code>{}</code>
 <b>Plan name:</b> Free User
 <b>Expires on:</b> 31/12/2031"""
-    HELP_USER = """Hai I'm URL Uploader bot..
+    HELP_USER = """ഹായ് ഞാൻ URL അപ്‌ലോഡ് ബോട്ട്..
     
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give video
-   File   - Give File
+1. URL അയയ്ക്കുക (വിപുലീകരണത്തിനൊപ്പം | പുതിയ പേര്.
+2. ഇഷ്ടാനുസൃത ലഘുചിത്രം അയയ്ക്കുക (ഓപ്ഷണൽ).
+3. ബട്ടൺ തിരഞ്ഞെടുക്കുക.
+   SVideo - സ്ക്രീൻഷോട്ടുകൾ ഉപയോഗിച്ച് വീഡിയോ നൽകുക
+   DFile  - സ്ക്രീൻഷോട്ടുകൾ ഉപയോഗിച്ച് ഫയൽ നൽകുക
+   Video  - വീഡിയോ നൽകുക
+   File   - ഫയൽ നൽകുക
    
-<b>👉 Bot update channel :</b> 👉 <a href="https://t.me/NT_BOT_CHANNEL">Join</a>
+<b>👉 ബോട്ട് അപ്ഡേറ്റ് ചാനൽ :</b> 👉 <a href="https://t.me/NT_BOT_CHANNEL">ജോയിൻ,</a>
 
 --------
-Send /plan to know current plan details
+അയയ്ക്കുക /plan നിലവിലെ പ്ലാൻ വിശദാംശങ്ങൾ അറിയാൻ
 
 
 © @NT_BOT_ADMIN"""
-    MSG_TO_DOC_GET_LINK = "Msg to a Telegram media to get High Speed Direct Download Link"
-    MSG_TO_DOC_FOR_C2V = "Msg to a Telegram media to convert"
-    MSG_TO_DOC_FOR_SCSS = "Msg to a Telegram media to get screenshots"
-    MSG_TO_DOC_FOR_RENAME_FILE = "Msg to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
-    FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
-    FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
-    FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "A saved media already exists. Please send /storageinfo to know the current media details."
-    USER_DELETED_FROM_DB = "User <a href='tg://user?id={}'>{}</a> deleted from DataBase."
-    MSG_TO_DOC_OR_LINK_FOR_RARX_SRT = "Msg to a Telegram media (MKV), to extract embedded streams"
-    MSG_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Msg /generatecustomthumbnail to a media album, to generate custom thumbail"
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-    INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
-    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /plan to remove this restriction."
+    MSG_TO_DOC_GET_LINK = "ഹൈ സ്പീഡ് ഡയറക്റ്റ് ഡൗൺലോഡ് ലിങ്ക് ലഭിക്കുന്നതിന് ഒരു ടെലിഗ്രാം മീഡിയയിലേക്ക് MSG"
+    MSG_TO_DOC_FOR_C2V = "പരിവർത്തനം ചെയ്യാൻ ഒരു ടെലിഗ്രാം മീഡിയയിലേക്ക് msg"
+    MSG_TO_DOC_FOR_SCSS = "സ്ക്രീൻഷോട്ടുകൾ ലഭിക്കാൻ ഒരു ടെലിഗ്രാം മീഡിയയിലേക്ക് MSG"
+    MSG_TO_DOC_FOR_RENAME_FILE = "ഒരു ടെലിഗ്രാം മീഡിയയിലേക്ക് MSG /rename ഇഷ്ടാനുസൃത ലഘുചിത്ര പിന്തുണയോടെ"
+    AFTER_GET_DL_LINK = "നേരിട്ടുള്ള ലിങ്ക് <a href='{}'>ജനറേറ്റുചെയ്തു</a> സാധുത {} ദിവസങ്ങളിൽ.\n© @NT_BOT_ADMIN"
+    FF_MPEG_RO_BOT_RE_SURRECT_ED = """സ്നാനക്സ്: /trim HH:MM:SS [HH:MM:SS]"""
+    FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "ആദ്യം അയയ്ക്കുക /downloadmedia ഏത് മാധ്യമങ്ങളിലേക്കും അത് എന്റെ പ്രാദേശികത്തിലേക്ക് ഡൺലോഡ് ചെയ്യാൻ കഴിയും. \nSend /storageinfo മാധ്യമങ്ങളെ അറിയാൻ, അത് നിലവിൽ ഡൺലോഡ് ചെയ്തു."
+    FF_MPEG_RO_BOT_STOR_AGE_INFO = "വീഡിയോ ദൈർഘ്യം: {}\nSend /clearffmpegmedia എന്റെ സംഭരണത്തിൽ നിന്ന് ഈ മീഡിയ ഇല്ലാതാക്കാൻ.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t ഒരു ചെറിയ ഫോട്ടോ / മുകളിലുള്ള മീഡിയയിൽ നിന്ന് വീഡിയോ."
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "സംരക്ഷിച്ച മീഡിയ ഇതിനകം നിലവിലുണ്ട്. അയയ്ക്കൂ /storageinfo നിലവിലെ മീഡിയ വിശദാംശങ്ങൾ അറിയാൻ."
+    USER_DELETED_FROM_DB = "ഉപയോഗിക്കുന്നവന് <a href='tg://user?id={}'>{}</a> ഡാറ്റാബേസിൽ നിന്ന് ഇല്ലാതാക്കി."
+    MSG_TO_DOC_OR_LINK_FOR_RARX_SRT = "ഒരു ടെലിഗ്രാം മീഡിയയിലേക്ക് msg (MKV), ഉൾച്ചേർത്ത സ്ട്രീമുകൾ എക്സ്ട്രാക്റ്റുചെയ്യുന്നതിന്"
+    MSG_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Msg /generatecustomthumbnail ഇഷ്ടാനുസൃത ലഘുചിത്രം സൃഷ്ടിക്കുന്നതിന് ഒരു മീഡിയ ആൽബത്തിലേക്ക്"
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = "മീഡിയ ആൽബത്തിന് രണ്ട് ഫോട്ടോകൾ മാത്രമേ അടങ്ങിയിരിക്കൂ. ദയവായി മീഡിയ ആൽബം വീണ്ടും അയയ്ക്കുക, തുടർന്ന് വീണ്ടും ശ്രമിക്കുക, അല്ലെങ്കിൽ ഒരു ആൽബത്തിൽ രണ്ട് ഫോട്ടോകൾ മാത്രം അയയ്ക്കുക."
+    INVALID_UPLOAD_BOT_URL_FORMAT = "URL ഫോർമാറ്റ് തെറ്റാണ്.നിങ്ങളുടെ URL ആരംഭിക്കുമെന്ന് ഉറപ്പാക്കുക http:// അഥവാ https://. ഫോർമാറ്റ് ലിങ്ക് ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഇഷ്ടാനുസൃത ഫയൽ നാമം സജ്ജമാക്കാൻ കഴിയും | file_name.മറുഫോണ്"
+    ABUSIVE_USERS = "ഈ ബോട്ട് ഉപയോഗിക്കാൻ നിങ്ങൾക്ക് അനുവാദമില്ല.ഇതൊരു തെറ്റാണെന്ന് നിങ്ങൾ കരുതുന്നുവെങ്കിൽ, ദയവായി പരിശോധിക്കുക /plan ഈ നിയന്ത്രണം നീക്കംചെയ്യാൻ."
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
-    EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
-    EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
+    EXTRACT_ZIP_INTRO_ONE = "ആദ്യം ഒരു കംപ്രസ്സുചെയ്ത ഫയൽ അയയ്ക്കുക, തുടർന്ന് മറുപടി നൽകുക /unzip ഫയലിനോടുള്ള കമാൻഡ്."
+    EXTRACT_ZIP_INTRO_THREE = "അനാലിസിംഗിന് ലഭിച്ചു ഫയൽ. ⚠️ ഇത് കുറച്ച് സമയമെടുത്തേക്കാം. ദയവായി ക്ഷമിക്കുക. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
-    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
-    EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
-You can use /rename command after receiving file to rename it with custom thumbnail support."""
-    CANCEL_STR = "Process Cancelled"
-    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
-/upgrade or Try 1800 seconds later."""
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    EXTRACT_ZIP_ERRS_OCCURED = "ക്ഷമിക്കണം. കംപ്രസ് ചെയ്ത ഫയൽ പ്രോസസ്സ് ചെയ്യുമ്പോൾ പിശകുകൾ സംഭവിച്ചു. ദയവായി എല്ലാം വീണ്ടും പരിശോധിക്കുക, പ്രശ്നം നിലനിൽക്കുകയാണെങ്കിൽ, ഇത് റിപ്പോർട്ടുചെയ്യുക <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    EXTRACT_ZIP_STEP_TWO = """ചുവടെയുള്ള ഓപ്ഷനുകളിൽ നിന്ന് അപ്ലോഡുചെയ്യാൻ ഫയൽ_നാമം തിരഞ്ഞെടുക്കുക.
+നിങ്ങൾക്ക് ഉപയോഗിക്കാം /rename ഇഷ്ടാനുസൃത ലഘുചിത്ര പിന്തുണയുമായി പേരുമാറ്റാൻ ഫയൽ സ്വീകരിച്ചതിന് ശേഷം കമാൻഡ് ചെയ്യുക."""
+    CANCEL_STR = "പ്രക്രിയ റദ്ദാക്കി"
+    ZIP_UPLOADED_STR = "അപ്ലോഡുചെയ്തു {} ഫയലുകൾ {} സെക്കൻഡ്"
+    FREE_USER_LIMIT_Q_SZE = """പ്രോസസ്സ് ചെയ്യാൻ കഴിയില്ല.
+സൗജന്യം ഉപയോക്താക്കൾക്ക് 1 അഭ്യർത്ഥന മാത്രം 30 മിനിറ്റ്.
+/upgrade അല്ലെങ്കിൽ 1800 സെക്കൻഡ് കഴിഞ്ഞപ്പോൾ ശ്രമിക്കുക."""
+    SLOW_URL_DECED = "വളരെ മന്ദഗതിയിലുള്ള URL ആണെന്ന് തോന്നുന്ന ഗോഷ്.നിങ്ങൾ എന്റെ വീട്ടിൽ സ്ക്രൂ ചെയ്യുന്നു, ഈ ഫയൽ ഡൗൺലോഡുചെയ്യാൻ ഞാൻ മാനസികാവസ്ഥയിലല്ല.അതേസമയം, നിങ്ങൾ എന്തിനാണ് ശ്രമിക്കാത്തത് this:==> https://shrtz.me/PtsVnf6 ഞാൻ മറ്റ് ഉപയോക്താക്കൾക്കായി മന്ദഗതിയിലാക്കാതെ ടെലിഗ്രാമിലേക്ക് അപ്ലോഡ് ചെയ്യാൻ കഴിയുന്ന ഒരു വേഗത്തിലുള്ള URL നേടാം."
 
